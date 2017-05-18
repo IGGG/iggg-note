@@ -3,6 +3,7 @@ layout: post
 title:  テスト
 date:   2017-05-17 10:01:14 +0900
 tags: jekyll update
+author: matsubara0507
 ---
 # Hello IGGG !!
 

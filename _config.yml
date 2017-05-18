@@ -36,3 +36,10 @@ kramdown:
   input:          GFM
   hard_wrap:      true
   footnote_nr:    1
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      author: "IGGG"
