@@ -3,7 +3,6 @@ layout: post
 title:  "Theme preview"
 date:   2017-05-10 20:01:14 +0900
 tags: jekyll update
-permalink: /
 ---
 # Hello Jekyll!
 
