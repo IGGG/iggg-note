@@ -1,9 +1,10 @@
 title: Kieta
 subtitle: All hope is gone
-author: mzyy94
+repository: IGGG/kieta
+author: IGGG
 twitter:
-  username: mzyy94
-color: limegreen
+  username: IGGGorg
+color: "#1b7aca"
 branch: gh-pages
 
 permalink: /items/:title
