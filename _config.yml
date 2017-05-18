@@ -1,5 +1,5 @@
-title: Kieta
-subtitle: All hope is gone
+title: IGGG Note
+subtitle: 部内用の初心者向け記事置き場
 repository: IGGG/kieta
 author: IGGG
 twitter:
@@ -9,7 +9,7 @@ branch: gh-pages
 
 permalink: /items/:title
 search_engine: https://www.google.com/search
-paginate: 5 
+paginate: 5
 paginate_path: "/page/:num"
 jekyll-mentions: https://twitter.com
 feed:
