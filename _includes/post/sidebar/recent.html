@@ -1,8 +1,8 @@
 <div class="py-3">
 <h5>Recent post</h5>
 <ul>
-{% assign posts = site.posts | where: "author", page.author %}
-{% for post in posts | limit: 5 %}
+{% assign posts = site.posts | where: "author", include.author %}
+{% for post in posts | limit: include.limit %}
 <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

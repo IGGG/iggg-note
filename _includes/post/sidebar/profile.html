@@ -1,9 +1,9 @@
 <div class="py-3">
-    <a href="https://github.com/{{ page.author }}" class="d-inline-block align-top">
-      {% avatar {{ page.author }} size=80 %}
+    <a href="https://github.com/{{ include.author }}" class="d-inline-block align-top">
+      {% avatar user=include.author size=80 %}
     </a>
   <div class="d-inline-block">
-    <span class="my-0 h5"><a href="https://github.com/{{ page.author }}" class="font-weight-bold">{{ page.author }}</a></span>
-    <p class="my-0"><strong>{{ site.posts | where: "author", page.author | size }}</strong> Posts</p>
+    <span class="my-0 h5"><a href="https://github.com/{{ include.author }}" class="font-weight-bold">{{ include.author }}</a></span>
+    <p class="my-0"><strong>{{ site.posts | where: "author", include.author | size }}</strong> Posts</p>
   </div>
 </div>

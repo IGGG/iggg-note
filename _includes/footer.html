@@ -4,13 +4,14 @@
     <div class="row w-100 justify-content-md-between">
       <p class="text-muted col col-md-auto col-sm-12">
         Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
-        <span class="credit">Powered by <a href="https://jekyllrb.com/">Jekyll</a> & 
+        <span class="credit">Powered by <a href="https://jekyllrb.com/">Jekyll</a> &
         <a href="https://github.com/mzyy94/jekyll-kieta-theme">Kieta</a></span>
       </p>
       <div class="w-100 hidden-sm-up"></div>
       <nav class="col col-md-auto col-sm-12">
         <a href="{{ site.baseurl }}/" class="mx-1">All posts</a>
         <a href="{{ site.baseurl }}/tags" class="mx-1">Tags</a>
+        <a href="{{ site.baseurl }}/authors" class="mx-1">Authors</a>
 {% if site.data.pages %}
 {% for page in site.data.pages %}
         <a href="{{ page.url }}" class="mx-1">{{ page.title }}</a>

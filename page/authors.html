@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /authors
+---
+
+<main class="container h-100">
+<h1 class="my-3">Authors</h1>
+{% assign collection = site.posts | group_by: "author" %}
+<section class="list-group">
+  {% for group in collection %}
+  <article class="list-group-item flex-row align-items-start">
+    <div style="width:120px; margin-right:100px">
+      {% include post/sidebar/profile.html author=group.name %}
+    </div>
+    <div>
+      {% include post/sidebar/recent.html author=group.name limit=3 %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+</main>
