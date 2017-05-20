@@ -1,9 +1,15 @@
 <nav class="navbar navbar-toggleable-md navbar-light {% if page.layout == "post" %}bg-faded{% else %}bg-white{% endif %} navbar-top">
-  <div class="container">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand text-theme-color" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <div class="container" style="min-width: 300px;">
+    <div class="d-flex justify-content-between">
+      <div>
+        <a class="navbar-brand text-theme-color" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </div>
+      <div>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
     <div class="collapse navbar-collapse" id="navbar">
       <div class="navbar-nav mr-auto">
         <form class="form-inline my-2 my-lg-0" method="get" action="{{ site.search_engine }}">
