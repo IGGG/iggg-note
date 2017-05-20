@@ -20,13 +20,19 @@
           <span class="badge badge-warning">NEW</span> {{ site.subtitle }}
         </span>
       </div>
-      <ul class="navbar-nav hidden-sm-down">
-        <li class="form-inline"><a href="{{ site.baseurl }}/" class="btn btn-warning">All posts</a></li>
-        <li class="nav-item dropdown">
+      <ul class="navbar-nav">
+        <li class="form-inline">
+          <a href="{{ site.baseurl }}/new" class="btn btn-warning">
+            <i class="fa fa-pencil-square-o mr-2" aria-hidden="true"></i>
+            <span>New Post</span>
+         </a>
+        </li>
+        <li class="nav-item dropdown hidden-sm-down">
           <a class="nav-link dropdown-toggle" href="#" id="navMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Menu
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navMenu">
+            <a class="dropdown-item" href="{{ site.baseurl }}/"> All posts</a>
             <a class="dropdown-item" href="{{ site.baseurl }}/tags">Tags</a>
             <a class="dropdown-item" href="{{ site.baseurl }}/authors">Authors</a>
 {% if site.data.pages %}
