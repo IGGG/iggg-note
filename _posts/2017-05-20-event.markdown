@@ -19,7 +19,7 @@ author: Empe0105
   - 勿論，発表はしなくても全く問題ありません．
 - 大学以外の外部の方の参加が可能なので，外部の方と交流することも出来ます．
 - 過去ののMEETUPは[こんな感じ](https://www.iggg.org/wiki/?IGGG%20Meetup%202017%20Spring)だったり[こんな感じ](https://www.iggg.org/wiki/?IGGG%20Meetup%202016%20Summer)だったりします．
-- 参加登録はconnpassと呼ばれるサービスで行います．
+- 参加登録は[connpass](https://iggg.connpass.com/)と呼ばれるサービスで行います．
 
 ## 2.Briefing
 - 年に数回，平日の放課後に開催される「不定期学習報告会」です．
@@ -27,13 +27,14 @@ author: Empe0105
 - Meetupのとてもゆるいバージョンです．
   - 自己紹介とかだけで終わってもかまわないし，発表も2～3分くらいで終わる場合があったりします．
 - 過去ののBriefingは[こんな感じ](https://www.iggg.org/wiki/?IGGG%20Briefing%20%EF%BC%837)だったり[こんな感じ](https://www.iggg.org/wiki/?IGGG%20Briefing%20%EF%BC%836)だったりします．
-- 参加登録はIGGGのWikiのページで行います．
+- 参加登録は[Wiki](https://www.iggg.org/wiki/?FrontPage)のページで行います．
 
 ## 3.群桐祭(テクノドリームツアー)
 - 年に一回(例年なら10月)開催される，群大の桐生キャンパスの文化祭です．
 - IGGGではテクノドリームツアーで，自分たちの作成したソフトウェア等を展示しています．
   - 展示したソフトウェアを子供たちに遊んでもらったりしています．
 - 過去の群桐祭(テクノドリームツアー)は[こんな感じ](https://www.iggg.org/wiki/?%E7%BE%A4%E6%A1%90%E7%A5%AD%202016)だったり[こんな感じ](https://www.iggg.org/wiki/?%E7%BE%A4%E6%A1%90%E7%A5%AD%202015)だったりします．
+  - 去年の群桐祭のHPは[ここ](https://iggg.github.io/guntoh-fes/)で見れます．
 
 ## 4.ジャンク祭り(ゴミックマーケット，ゴミケ)
 - 年に一回(例年なら六月)開催される，粗大ごみ(廃品)回収の日のことです．
