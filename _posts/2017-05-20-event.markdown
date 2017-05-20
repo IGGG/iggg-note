@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  イベント紹介
-date:   2017-05-20 15:45:00 +0900
+title: イベント紹介
+date: 2017-05-20 15:45:00 +0900
 tags: introduction
 author: Empe0105
 ---
