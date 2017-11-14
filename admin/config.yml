@@ -14,4 +14,5 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags (ex: ruby programming)", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
